@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <style>
+        body {
+            font-size: x-large;
+            background-color: rgba(0, 0, 0, 0.375);
+            color: rgb(255, 255, 255);
+        }
+        label {
+            display: inline-block;
+            width: 140px;
+            text-align: right;
+        }
+        button {
+            display: inline-block;
+            margin-left: 9.7%;
+            text-align: right;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <hr>
+    <form method="post" action="/">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" required><br>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
